@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>해모루마을 | 고양시 내유동 단독주택 전원단지</title>
+<meta name="description" content="경기도 고양시 덕양구 내유동, 35세대 단독주택 전원단지 해모루마을. 해가 모이는 마당있는 집.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700;900&family=Pretendard:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== 진입 로더 ===== -->
+<div class="sun-loader" id="sunLoader" aria-hidden="true">
+  <div class="sun-loader__disc"></div>
+</div>
+
+<!-- ===== 헤더 ===== -->
+<header class="nav" id="siteNav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">
+      <img src="images/logo-horizontal.png" alt="해모루마을" class="nav__brand-logo">
+    </a>
+    <nav class="nav__links">
+      <a href="#about">단지소개</a>
+      <a href="#location">입지환경</a>
+      <a href="#siteplan">단지배치</a>
+      <a href="#gallery">준공사진</a>
+      <a href="#spec">분양정보</a>
+      <a href="#contact">상담문의</a>
+    </nav>
+    <a href="#contact" class="nav__cta">상담 신청</a>
+    <button class="nav__burger" id="navBurger" aria-label="메뉴 열기" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav__mobile" id="navMobile">
+    <a href="#about">단지소개</a>
+    <a href="#location">입지환경</a>
+    <a href="#siteplan">단지배치</a>
+    <a href="#gallery">준공사진</a>
+    <a href="#spec">분양정보</a>
+    <a href="#contact">상담문의</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero__sky" aria-hidden="true">
+      <div class="hero__sun"></div>
+      <div class="hero__ridge hero__ridge--back"></div>
+      <div class="hero__ridge hero__ridge--front"></div>
+    </div>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow">경기도 고양시 덕양구 내유동 136-2번지 일원</p>
+      <h1 class="hero__title">
+        해가 모이는 곳<br>
+        <span class="hero__title-accent">해모루 마을</span>
+      </h1>
+      <p class="hero__desc">
+        도심 속 숲에 둘러싸인 35세대 단독주택 전원단지<br class="br-mobile">
+        막힘없이 펼쳐진 뷰, 해모루마을에서 시작됩니다
+      </p>
+      <div class="hero__tags">
+        <span>동간거리 15m 이상</span>
+        <span>100~120평 넓은 대지</span>
+        <span>지하철 3호선 삼송역, 원흥역, 원당역 20분대</span>
+        <span>35세대 프리미엄 전원단지</span>
+      </div>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">분양 상담 신청</a>
+        <a href="#about" class="btn btn--ghost">단지 둘러보기 ↓</a>
+      </div>
+    </div>
+
+    <div class="hero__frame">
+      <img src="images/hero-main.jpg" alt="해모루마을 단지 전체 조감도" loading="eager">
+    </div>
+  </section>
+
+  <!-- ===== 무빙 카피 밴드 ===== -->
+  <div class="band" aria-hidden="true">
+    <div class="band__track">
+      <span>해가 모이는 마당있는 집 &nbsp;·&nbsp; 35세대 단독주택 전원단지 &nbsp;·&nbsp; 고양시 내유동 해모루마을 &nbsp;·&nbsp; </span>
+      <span>해가 모이는 마당있는 집 &nbsp;·&nbsp; 35세대 단독주택 전원단지 &nbsp;·&nbsp; 고양시 내유동 해모루마을 &nbsp;·&nbsp; </span>
+    </div>
+  </div>
+
+  <!-- ===== 단지소개 / ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="section-head">
+      <p class="section-head__eyebrow">ABOUT HAEMORU</p>
+      <h2 class="section-head__title">자연과 도시,<br>두 가치가 만나는 자리</h2>
+    </div>
+
+    <div class="about__grid">
+      <div class="about__lead">
+        <p>
+          해모루마을은 <strong>'해가 모이는 마당있는 집'</strong>이라는 뜻을 담아,
+          숲으로 둘러싸인 고양시 내유동 한 자락에 자리한 35세대 규모의
+          단독주택 전원단지입니다.
+        </p>
+        <p>
+          세대마다 독립된 마당과 충분한 채광을 누리면서, 지하철 삼송역과 원흥역, 원당역
+          주요 간선도로까지 빠르게 닿는 입지로 여유로운 전원생활과
+          편리한 도심 생활권을 동시에 제공합니다.
+        </p>
+      </div>
+
+      <ul class="feature-grid">
+        <li class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M6 40V18l18-13 18 13v22H6Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M18 40V26h12v14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>35세대 단독주택</h3>
+          <p>전체 35필지로 조성되는 저밀도 단독주택형 전원단지</p>
+        </li>
+        <li class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><rect x="6" y="8" width="14" height="32" rx="1.5" fill="none" stroke="currentColor" stroke-width="2.2"/><rect x="28" y="8" width="14" height="32" rx="1.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M20 24h8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M22 20l-2 4 2 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M26 20l2 4-2 4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>동간거리 15m 이상</h3>
+          <p>세대 간 충분한 이격거리로 채광과 사생활을 함께 지키는 배치</p>
+        </li>
+        <li class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><rect x="6" y="14" width="36" height="26" rx="2" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M6 22h36" stroke="currentColor" stroke-width="2.2"/><path d="M16 22v18M32 22v18" stroke="currentColor" stroke-width="2.2"/></svg>
+          </span>
+          <h3>100~120평 넓은 대지</h3>
+          <p>필지별 넓은 대지로 답답함 없는 여유로운 마당 설계가 가능</p>
+        </li>
+        <li class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M24 4c6 7 10 13 10 19a10 10 0 1 1-20 0c0-6 4-12 10-19Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>숲으로 둘러싸인 단지</h3>
+          <p>사방이 녹지로 둘러싸여 쾌적하고 포근한 주거환경 조성</p>
+        </li>
+        <li class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="19" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M24 13v11l8 5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>삼송역, 원흥역, 원당역 20분대</h3>
+          <p>지하철 3호선 3개 역까지 빠르게 연결되는 서울 출퇴근권</p>
+        </li>
+        <li class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><rect x="6" y="20" width="36" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="15" cy="36" r="3.4" fill="none" stroke="currentColor" stroke-width="2.2"/><circle cx="33" cy="36" r="3.4" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M9 20l4-8h22l4 8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>편리한 생활 인프라</h3>
+          <p>학교·마트·병원·편의점이 가까운 생활이 편리한 입지</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="about__band">
+      <div class="about__band-item">
+        <span class="num">35</span><span class="unit">세대</span>
+        <p>단독주택 전원단지</p>
+      </div>
+      <div class="about__band-item">
+        <span class="num">100~120</span><span class="unit">평</span>
+        <p>필지별 넓은 대지면적</p>
+      </div>
+      <div class="about__band-item">
+        <span class="num">15</span><span class="unit">m+</span>
+        <p>동간거리</p>
+      </div>
+      <div class="about__band-item">
+        <span class="num">20</span><span class="unit">분대</span>
+        <p>삼송역, 원흥역, 원당역 접근성</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 입지환경 / LOCATION ===== -->
+  <section class="location" id="location">
+    <div class="section-head section-head--light">
+      <p class="section-head__eyebrow">LOCATION</p>
+      <h2 class="section-head__title">사방으로 열린<br>광역 교통망</h2>
+      <p class="section-head__desc">
+        서울문산고속도로와 원당-토당 우회도로(39번도로)가 만나는 자리,
+        서울 도심까지 거리를 좁히는 해모루마을의 입지입니다.
+      </p>
+    </div>
+
+    <div class="location__map-wrap">
+      <img src="images/location-map.jpg" alt="해모루마을 광역 교통망 지도" loading="lazy">
+    </div>
+
+    <div class="location__details">
+      <div class="loc-card">
+        <h3>광역 교통</h3>
+        <ul>
+          <li><span>서울문산고속도로</span>개통 — 사리현IC ↔ 강변북로 17.5km</li>
+          <li><span>원당-토당 우회도로(39번)</span>개통 — 관산IC ↔ 토당IC 9.34km, 10분 이내</li>
+          <li><span>지하철 3호선 삼송역, 원흥역, 원당역</span>버스 환승 20분대</li>
+          <li><span>고양JTC · 통일로IC</span>인접, 강변북로·자유로 진입 용이</li>
+        </ul>
+      </div>
+      <div class="loc-card">
+        <h3>교육 환경</h3>
+        <ul>
+          <li><span>내유초등학교</span>단지 인근 도보권</li>
+          <li><span>고양제일중학교</span>차량 이용권</li>
+          <li><span>고양외국어고등학교</span>차량 이용권</li>
+        </ul>
+      </div>
+      <div class="loc-card">
+        <h3>생활 편의</h3>
+        <ul>
+          <li><span>CU 편의점</span>단지 인접</li>
+          <li><span>삼송역 버스정류장</span>도보 이용권</li>
+          <li><span>마트 · 음식점 · 병원 · 약국</span>생활권 내 위치</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="location__aerial">
+      <img src="images/aerial-view.jpg" alt="해모루마을 단지 위치 항공뷰" loading="lazy">
+      <p class="location__aerial-caption">조용하고 편리한 생활 조건을 모두 만족하는 해모루마을의 실제 입지</p>
+    </div>
+  </section>
+
+  <!-- ===== 단지배치 / SITE PLAN ===== -->
+  <section class="siteplan" id="siteplan">
+    <div class="section-head">
+      <p class="section-head__eyebrow">SITE PLAN</p>
+      <h2 class="section-head__title">35필지,<br>저마다의 마당을 갖다</h2>
+      <p class="section-head__desc">
+        전봇대 없이 깔끔하게 정돈된 단지 풍경과, 개별 맞춤 설계가 가능한
+        35필지의 단독주택 전원단지 배치를 소개합니다.
+      </p>
+    </div>
+
+    <div class="siteplan__visual">
+      <img src="images/site-plan.jpg" alt="해모루마을 35세대 단지 배치 조감도" loading="lazy">
+    </div>
+
+    <div class="siteplan__specs">
+      <table class="spec-table">
+        <tbody>
+          <tr><th>대지위치</th><td>경기도 고양시 덕양구 내유동 136-2번지 일원</td></tr>
+          <tr><th>대지면적</th><td>14,886㎡ (4,503평)</td></tr>
+          <tr><th>단지면적</th><td>6,214.6㎡ / 35필지 / 6m·8m 도로</td></tr>
+          <tr><th>필지면적</th><td>필지별 100~120평 내외 (넓은 개별 대지)</td></tr>
+          <tr><th>동간거리</th><td>15m 이상 확보로 채광·사생활 보호</td></tr>
+          <tr><th>세대수</th><td>35세대</td></tr>
+          <tr><th>건축구조</th><td>목구조 / 철근콘크리트 구조 선택 가능</td></tr>
+          <tr><th>기반시설</th><td>상,하수도, 도시가스, 우수, 오수, 전기 통신 등 지중화 공사 완료</td></tr>
+          <tr><th>오수시설</th><td>개별 정화조가 필요 없는 통합 오폐수관 이용</td></tr>
+        </tbody>
+      </table>
+
+      <ul class="siteplan__notes">
+        <li>세대 간 동간거리 15m 이상 확보로 답답하지 않은 채광과 사생활 보호</li>
+        <li>필지별 100~120평 내외의 넓은 대지로 여유로운 마당 조성 가능</li>
+        <li>전봇대 없이 깔끔한 단지를 위한 전기·통신 지중화 공사</li>
+        <li>고급 전원주택 단지의 기본인 철근콘크리트 옹벽시공</li>
+ 
+      </ul>
+    </div>
+
+    <p class="siteplan__disclaimer">
+      ※ 위 이미지는 기본 조감도로서 본 단지는 분양고객 요구에 맞는 개별맞춤 설계·시공으로
+      주택 외관과 형태, 크기는 본 이미지와 상이할 수 있습니다. 건축물을 제외한 토목공사 및
+      단지조성 참고용 이미지입니다.
+    </p>
+  </section>
+
+  <!-- ===== 실제 준공 현장 / GALLERY ===== -->
+  <section class="gallery" id="gallery">
+    <div class="section-head">
+      <p class="section-head__eyebrow">REAL HAEMORU</p>
+      <h2 class="section-head__title">조감도가 아닌,<br>실제로 완성된 모습</h2>
+      <p class="section-head__desc">
+        해모루마을에 실제로 들어선 주택의 외관과 내부 인테리어 예시입니다.
+        도면 위의 계획이 아닌, 지금 자리한 풍경을 보여드립니다.
+      </p>
+    </div>
+
+    <div class="gallery__grid">
+      <figure class="gallery__item gallery__item--tall">
+        <img src="images/gallery-exterior-3.jpg" alt="해모루마을 실제 준공 외관 1" loading="lazy">
+        <figcaption>맑은 하늘 아래 자리한 단지 외관</figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="images/gallery-exterior-1.jpg" alt="해모루마을 실제 준공 외관 2" loading="lazy">
+        <figcaption>3층 구조의 단독주택, 넓은 마당과 데크</figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="images/gallery-interior-1.jpg" alt="해모루마을 실내 인테리어 예시 - 주방" loading="lazy">
+        <figcaption>아일랜드 식탁이 있는 주방 인테리어 예시</figcaption>
+      </figure>
+      <figure class="gallery__item gallery__item--tall">
+        <img src="images/gallery-exterior-4.jpg" alt="해모루마을 실제 준공 외관 3" loading="lazy">
+        <figcaption>장미 정원과 어우러진 단지 풍경</figcaption>
+      </figure>
+      <figure class="gallery__item">
+        <img src="images/gallery-exterior-2.jpg" alt="해모루마을 실제 준공 외관 4" loading="lazy">
+        <figcaption>'구해줘 홈즈'에 방영된 주택 전경</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== 분양정보 / SPEC ===== -->
+  <section class="spec" id="spec">
+    <div class="section-head">
+      <p class="section-head__eyebrow">WHY HAEMORU</p>
+      <h2 class="section-head__title">여유로운 삶과<br>편리한 생활, 둘 다 누리다</h2>
+    </div>
+
+    <div class="spec__cards">
+      <div class="spec-card">
+        <span class="spec-card__index">01</span>
+        <h3>삼송역 20분대</h3>
+        <p>서울 도심까지 빠르게 닿는 출퇴근권. 광역 교통망의 중심에서 누리는 도시 접근성.</p>
+      </div>
+      <div class="spec-card">
+        <span class="spec-card__index">02</span>
+        <h3>숲으로 둘러싸인 단지</h3>
+        <p>쾌적하고 포근한 주거환경. 사계절 자연이 만드는 마당있는 삶.</p>
+      </div>
+      <div class="spec-card">
+        <span class="spec-card__index">03</span>
+        <h3>생활이 편리한 입지</h3>
+        <p>학교, 마트, 병원 등 생활 인프라가 가까운 편리한 정주환경.</p>
+      </div>
+      <div class="spec-card">
+        <span class="spec-card__index">04</span>
+        <h3>프리미엄 전원 타운하우스</h3>
+        <p>자연과 도시의 가치가 만나는, 35세대 단독주택 전원단지.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <p class="section-head__eyebrow">CONTACT</p>
+      <h2 class="contact__title">해모루마을,<br>지금 상담을 신청하세요</h2>
+      <p class="contact__desc">
+        분양 일정, 필지별 위치, 평면 및 설계 옵션 등 자세한 안내는
+        상담 신청을 통해 빠르게 받아보실 수 있습니다.
+      </p>
+
+      <form class="contact__form" id="contactForm" action="https://formspree.io/f/mnjkalyq" method="POST">
+        <input type="hidden" name="_subject" value="[해모루마을] 새 상담 신청이 도착했습니다">
+        <input type="text" name="_gotcha" style="display:none">
+        <div class="form-row">
+          <label for="cName">성함</label>
+          <input type="text" id="cName" name="name" placeholder="홍길동" required>
+        </div>
+        <div class="form-row">
+          <label for="cPhone">연락처</label>
+          <input type="tel" id="cPhone" name="phone" placeholder="010-0000-0000" required>
+        </div>
+        <div class="form-row">
+          <label for="cMsg">문의 내용 (선택)</label>
+          <textarea id="cMsg" name="message" rows="3" placeholder="궁금하신 점을 남겨주세요"></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--wide" id="formSubmitBtn">상담 신청하기</button>
+        <p class="contact__notice" id="formNotice">개인정보는 상담 목적 외 사용되지 않습니다.</p>
+      </form>
+
+      <div class="contact__info">
+        <div>
+          <span>대지위치</span>
+          <p>경기도 고양시 덕양구 내유동 136-2번지 일원</p>
+        </div>
+        <div>
+          <span>분양 문의</span>
+          <p>대표전화 010-3759-2166</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="images/logo-horizontal.png" alt="해모루마을" class="footer__brand-logo">
+    </div>
+    <p>경기도 고양시 덕양구 내유동 136-2번지 일원 · 35세대 단독주택 전원단지</p>
+    <p class="footer__fine">
+      본 사이트의 이미지는 기본 조감도이며 분양 조건에 따라 실제와 차이가 있을 수 있습니다.
+      본 사이트는 정보 제공 목적의 홍보용 페이지입니다.
+    </p>
+  </div>
+</footer>
+
+<a href="#contact" class="float-cta" aria-label="상담 신청">
+  <span>상담<br>신청</span>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
